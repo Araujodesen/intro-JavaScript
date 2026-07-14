@@ -27,7 +27,7 @@ Array
 ## Condições
 ```javascript
 if (idade>=18){
-    console.log("Maior de Idae")
+    console.log("Maior de Idade")
 }else{
     console.log("Menor de Idade)
 }
