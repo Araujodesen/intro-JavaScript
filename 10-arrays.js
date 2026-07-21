@@ -71,3 +71,7 @@ pessoas.push("Aline")
 pessoas.push("Magenta")
 console.log(pessoas)
 
+// 2 - removendo itens de um array
+// pop - remove o último item do array
+pessoas.pop
+console.log(pessoas)
