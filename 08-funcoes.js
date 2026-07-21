@@ -31,7 +31,7 @@ function cumprimento(nomeDoUsuario){
 
 
 // chamando/ invocando uma função com parâmetro
-cumprimento(Tamara Lorenco)
+cumprimento(Tâmara)
 
 let user = true
 if (user === true){
@@ -65,6 +65,7 @@ function multiplicar(a, b){
     if (typeof a !== "number") {
     document.body.innerHTML = "O valor de A precisa ser um número"
     return
+    }
 
     if (typeof b !== "number") {
     document.body.innerHTML = "O valor de B precisa ser um número"
@@ -91,5 +92,5 @@ function multiplicar(a, b){
 
 
 // multiplicar(a = 5, b = 2) // 5 * 2 = 10
-multiplicar(5, 2) // 5 * 2 = 10
 //multiplicar("Olá", 'Victor')
+// multiplicar(5, 2) // 5 * 2 = 10

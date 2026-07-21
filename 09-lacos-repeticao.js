@@ -57,3 +57,22 @@ do {
 } while (condição)
 
 */
+
+// 1 - criando a variável de controle
+let numero = 1
+
+do { 
+    console.log(numero)
+    // 2 = atualizando a variável de controle
+    numero++
+} while (numero < 2)
+
+// exemplo com menu de opções
+let opcao
+
+do { 
+    console.log("1 - ver saldo")
+    console.log("2 - sair")
+
+    opcao = 2
+}while(opcao !== 2)
